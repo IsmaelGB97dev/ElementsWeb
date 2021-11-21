@@ -7,7 +7,7 @@
                 <img class="foto1" src="./img/foto1.jpg" alt="foto1">
             </div>
             <div>
-                <img class="foto2" src="./img/foto2.jpg" alt="foto2" width="100" >
+                <img class="foto2" src="./img/foto2.jpg" alt="foto2">
             </div>
             <div class="circle2"></div>
         </div>
