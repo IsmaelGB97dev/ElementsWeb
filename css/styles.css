@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+}
+
+:root {
+    --color1: #ED7218;
+    --color2: #F48024;
+    --color3: #F9AC44;
+    --color4: #E0E5EB;
+}
+
+.bg-color1 {
+    background-color: #ED7218;
+}
+
+.bg-color2 {
+    background-color: #F48024;
+}
+
+.bg-color3 {
+    background-color: #F9AC44;
+}
+
+.bg-color4 {
+    background-color: #E0E5EB;
+}
+
+.t-color1 {
+    color: #ED7218;
+}
+
+.t-color2 {
+    color: #F48024;
+}
+
+.t-color3 {
+    color: #F9AC44;
+}
+
+.t-color4 {
+    color: #E0E5EB;
+}
+
+/* ============================= SECTION 1 ========================== */
+.section1 .circle1 {
+    position: absolute;
+    margin-left: 60px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 45px solid var(--color1);
+    z-index: -1;
+    animation: bounce 2s infinite;
+}
+.section1 .foto1 {
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+}
+.section1 .foto2 {
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border: 20px solid var(--color1);
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 80px;
+}
+.section1 .circle2 {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color1);
+    border-radius: 50%;
+    animation: tada 2s infinite;
+    margin-top: -10px;
+}
+
+.section1 .btn {
+    background-color: var(--color1);
+    border: none;
+    border-radius: 30px ;
+}
+
+@media (max-width: 576px) {
+    .section1 .foto1 {
+        width: 280px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .section1 .circle1 {
+        margin-left: 160px;
+        margin-top: -20px;
+    }
+    .section1 .foto1 {
+        width: 400px;
+    }
+    .section1 .foto2 {
+        margin-left: 180px;
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (min-width: 768px) {
+    .section1 .foto1 {
+        width: 350px;
+    }
+}
+
+
+/* ============================= FIN SECTION 1 ========================== */
+
+
