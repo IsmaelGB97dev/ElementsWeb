@@ -1,0 +1,40 @@
+.parallax-1 .cont-img {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-1 img {
+    position: absolute;
+    width: 100%;
+}
+
+
+.parallax-1 img:nth-of-type(1) {
+    animation: move1 2s infinite alternate-reverse;
+}
+.parallax-1 img:nth-of-type(2) {
+    animation: move1 5s infinite;
+}
+
+
+@keyframes move1 {
+    0% {transform: translateX(10px)}
+    25% {transform: translateX(20px)}
+    50% {transform: translateX(30px)}
+    75% {transform: translateX(20px)}
+    100% {transform: translateX(10px)}
+}
+
+
+@keyframes move2 {
+    0% {transform: translateX(10px)}
+    25% {transform: translateX(20px)}
+    50% {transform: translateX(30px)}
+    75% {transform: translateX(20px)}
+    100% {transform: translateX(10px)}
+}
+

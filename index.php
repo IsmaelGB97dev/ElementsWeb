@@ -1,10 +1,11 @@
 <?php
+
 include 'header.php';
 
-// Sections
-include 'sections/section1.php';
-include 'sections/section2.php';
-include 'sections/services1.php';
-
-
 include 'footer.php';
+
+
+//  --------------- SVG GENERATORS -------------------------//
+// https://www.smashingmagazine.com/2021/03/svg-generators/
+// https://www.svgbackgrounds.com/
+// https://dev.to/kiranrajvjd/10-awesome-svg-shape-generators-for-your-web-projects-2mob

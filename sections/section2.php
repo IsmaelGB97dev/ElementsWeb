@@ -1,3 +1,5 @@
+<?php include '../header.php';?>
+
 <div class="container section2 border bg-light py-5">
     <div class="row">
         <div class="col-12 col-md-6 text-center text-md-start my-auto">
@@ -9,7 +11,7 @@
         </div>
         <div class="col-12 col-md-6 pt-4 pt-md-0 d-flex flex-column align-items-center position-relative">
             <div class="square1"></div>
-            <img src="./img/foto1.jpg" alt="foto1" class="foto1">
+            <img src="../img/foto1.jpg" alt="foto1" class="foto1">
         </div>
     </div>
     <div class="row flex-row-reverse py-5">
@@ -22,7 +24,7 @@
         </div>
         <div class="col-12 col-md-6 pt-4 pt-md-0 d-flex flex-column align-items-center position-relative">
             <div class="square1"></div>
-            <img src="./img/foto2.jpg" alt="foto1" class="foto1">
+            <img src="../img/foto2.jpg" alt="foto1" class="foto1">
         </div>
     </div>
 </div>

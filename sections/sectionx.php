@@ -1,5 +1,4 @@
-<?php include '../header.php'; ?>
-
+<?php include '../header.php';?>
 <div class="container section1 py-5">
     <div class="row">
         <div class="col-12 col-md-6 d-flex flex-column align-items-center">
@@ -20,11 +19,11 @@
             </p>
             <a href="#" class="btn btn-danger mb-2">Call 2 action1</a>
 
-            <h1 class="pt-3">Un segundo titulo del contenido</h1>
+            <h1>Un segundo titulo del contenido</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia placeat expedita aspernatur dolore. At accusamus sint nesciunt aut, nostrum debitis nihil! Natus id exercitationem ut? Qui nostrum nulla alias omnis?
             </p>
             <a href="#" class="btn btn-danger">Call 2 action2</a>
         </div>
     </div>
-</div>
+</div>    

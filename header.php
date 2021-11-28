@@ -1,3 +1,8 @@
+<?php 
+    $pagename = strtolower(ucfirst(pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME)));
+    $pathOthers = ($pagename == 'index') ? '' : '../';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,19 +13,26 @@
     <title>Elementos HTML</title>
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="<?php echo $pathOthers; ?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $pathOthers; ?>css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo $pathOthers; ?>css/aos.css">
+    <link rel="stylesheet" href="<?php echo $pathOthers; ?>css/styles.css">
+    <link rel="stylesheet" href="<?php echo $pathOthers; ?>fontawesome/css/all.css">
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <?php if($pagename != 'index') { ?>
+        <link rel="stylesheet" href="<?php echo $pathOthers; ?>css/<?php echo $pagename;?>.css">
+    <?php }?>
+
+    <script src="<?php echo $pathOthers; ?>js/jquery-3.6.0.min.js"></script>
+    <script src="<?php echo $pathOthers; ?>js/aos.js"></script>
+    <script src="<?php echo $pathOthers; ?>js/script.js"></script>
+    <script src="<?php echo $pathOthers; ?>js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
+<?php 
+if($pagename == 'index')
+    include 'sections/inicio.php';
+?>
     
 
 
