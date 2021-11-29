@@ -1,0 +1,64 @@
+
+.services2 .marco {
+    border: 5px solid var(--color1);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    animation: services2Ani1 2s infinite alternate-reverse;
+}
+
+.services2 .btn {
+    background-color: transparent;
+    color: var(--color1);
+    border: 2px solid var(--color1);
+}
+.services2 .btn:hover {
+    background-color: var(--color1);
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 1px var(--color1);
+}
+
+@keyframes services2Ani1 {
+    0% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    100% { transform: rotate(1deg); }
+}
+
+
+@media (max-width: 576px) {
+    .services2 img {
+        width: 260px;
+    }
+    .services2 .marco {
+        width: 260px;
+        height: 260px;
+    }
+    .services2 .box {
+        width: 260px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 980px) {
+    .services2 img {
+        width: 300px;
+    }
+    .services2 .marco {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .services2 .last {
+        width: 300px;
+    }
+}
+
+@media (min-width: 980px) {
+    .services2 .marco {
+        width: 230px;
+        height: 230px;
+    }
+   .services2 img {
+       width: 230px;
+   }
+} 

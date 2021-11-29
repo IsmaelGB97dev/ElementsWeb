@@ -22,6 +22,7 @@
         <div class="col-12 py-4">
             <h4 class="bg-primary text-white">Servicios</h4>
             <a href="sections/services1.php" target="_blank" class="btn btn-warning">Services1</a>
+            <a href="sections/services2.php" target="_blank" class="btn btn-warning">Services2</a>
         </div>
     </div>
 </div>
